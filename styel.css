@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #121212;
+    background: linear-gradient(135deg,
+            #121212 25%,
+            #212121 25%,
+            #212121 50%,
+            #121212 50%,
+            #121212 75%,
+            #212121 75%,
+            #212121);
+    background-size: 40px 40px;
+    animation: move 10s linear infinite;
+    color: white;
+
+    font-family: "Bahnschrift";
+    font-weight: 100;
+    font-style: normal;
+    padding: 5%;
+
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+#zag_1 {
+    font-size: 50px;
+}
+
+#zag_2 {
+    font-size: 40px;
+}
+
+#zag_3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#zag_4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#zag_5 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#zag_6 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#p_text {
+    padding-bottom: 20px;
+}
+
+.kurs {
+    color: #fff;
+    background: orangered;
+    border-radius: 10px;
+    line-height: 40px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    cursor: pointer;
+    transition: 500ms;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+}
+
+.kurs:hover {
+    box-shadow: 0px 0px 10px 10px orangered;
+}
+
+.line {
+    margin: 0 auto;
+}
+
+.line_block {
+    padding: 0px 40px 20px 40px;
+}
+
+.kurs_11 {
+    display: block;
+    color: #fff;
+    line-height: 40px;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    background: orangered;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 500ms;
+    padding: 10px;
+}
+
+.kurs_11 a {
+    display: block;
+    width: 100%;
+}
+
+.kurs_11:hover {
+    box-shadow: 0px 0px 10px 10px orangered;
+}
+
+#email_access {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#email_access input {
+    max-width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.logo {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid orangered;
+    border-radius: 25%;
+    width: 95px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .logo:hover {
+        background: orangered;
+    }
+}
+
+@media (hover: none) {
+    .logo:active {
+        background: orangered;
+    }
+}
+
+.conteiner {
+    background: #212121;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+.position img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.wrap img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.text_111 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block_nums {
+    max-width: 300px;
+    padding: 10px;
+}
+
+.bbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1 {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.text2 {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.text3 {
+    font-size: 20px;
+    padding-top: 20px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.word {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.color {
+    color: orangered;
+    font-size: 20px;
+}
+
+.vooooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.photo_printf img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.text_lalala {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+.wrap_yooo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+    padding: 20px;
+}
+
+.hopert {
+    font-size: 30px;
+    text-align: center;
+}
+
+.color_1 {
+    color: orangered;
+    font-size: 20px;
+}
+
+.arr {
+    max-width: 75px;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    background: #212121;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.arr-word {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*акардион*/
+.box {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.box-item {
+    margin-bottom: 5px;
+    border: 1px solid orangered;
+    background: #212121;
+}
+
+.box-titel {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+.box-titel::after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+
+}
+
+.box-titel:hover {
+    background-color: #ff4500;
+}
+
+.box-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+
+}
+
+.box-input:checked~.box-titel {
+    background-color: orangered;
+}
+
+.box-input:checked~.box-titel:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent white transparent;
+
+}
+
+.box-input:checked~.box-text {
+    display: block;
+}
+
+.box-text {
+    display: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    background: #212121;
+}
+
+#fourr {
+    margin-bottom: 9%;
+}
+
+#forr_text {
+    position: relative;
+    top: -25px;
+}
+
+/* акардион конец */
+.pi {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.course_info {
+    text-align: center;
+}
+
+.pis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.boom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.oplata_secruriti {
+    display: flex;
+}
+
+.one img {
+    max-width: 190px;
+}
+
+.two img {
+    max-width: 150px;
+}
+
+#back {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #121212;
+    border-bottom: 1px solid #121212;
+    border-radius: 25px;
+}
+
+.spanf {
+    color: orangered;
+}
+
+.spans {
+    color: #bbbbbb;
+}
+
+/* кастом емэил */
+.email {
+    padding: 10px;
+    background-color: #212121;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+
+.custom-checkbox p {
+    padding: 3px;
+}
+
+.email:focus {
+    outline: none;
+    border-color: orangered;
+}
+
+/* конец емэил */
+/* кастом галочка */
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    display: flex;
+    margin: 8px auto;
+    width: fit-content;
+    gap: 8px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border: 2px solid orangered;
+    border-radius: 3px;
+}
+
+.custom-checkbox input:checked+.checkmark {
+    background-color: orangered;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked+.checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
