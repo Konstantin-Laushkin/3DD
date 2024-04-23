@@ -133,6 +133,7 @@ body {
 a {
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 html {
